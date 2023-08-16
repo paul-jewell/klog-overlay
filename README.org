@@ -1,8 +1,8 @@
 #+AUTHOR: Paul Jewell
-#+TITLE: klog Gentoo Overlay
+#+TITLE: Klog Gentoo Overlay
 
 * Description
-** This overlay allows for installation of the amateur radio logging klog under gentoo linux.
+This overlay allows for installation of the amateur radio logging klog under gentoo linux.
 * Installation
 
 Run the command:
