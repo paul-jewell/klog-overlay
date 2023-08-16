@@ -1,0 +1,15 @@
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>klog</name>
+    <description lang="en">klog amateur radio logging program</description>
+    <homepage>https://github.com/paul-jewell/klog-overlay</homepage>
+    <owner type="person">
+      <email>paul@teulu.org</email>
+      <name>Paul Jewell</name>
+    </owner>
+    <source type="git">https://github.com/paul-jewell/klog-overlay.git</source>
+    <source type="git">git://github.com/paul-jewell/klog-overlay.git</source>
+    <source type="git">git@github.com:paul-jewell/klog-overlay.git</source>
+    <feed>https://github.com/paul-jewell/klog-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

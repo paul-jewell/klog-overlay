@@ -1,0 +1,24 @@
+diff -Naur klog-2.3.1-A/src/src.pro klog-2.3.1/src/src.pro
+--- klog-2.3.1-A/src/src.pro	2023-08-16 11:39:16.503969311 +0100
++++ klog-2.3.1/src/src.pro	2023-08-16 11:39:54.959969088 +0100
+@@ -342,7 +342,7 @@
+     datafiles.files = $$DISTFILES
+     INSTALLS += translations
+     INSTALLS += datafiles
+-    LIBS += -lhamlib
++    LIBS += -L"/usr/lib64/hamlib" -lhamlib
+ }
+ 
+ macx: {
+diff -Naur klog-2.3.1-A/tests/tst_mainwindow/tst_mainwindow.pro klog-2.3.1/tests/tst_mainwindow/tst_mainwindow.pro
+--- klog-2.3.1-A/tests/tst_mainwindow/tst_mainwindow.pro	2023-08-16 11:39:16.512969311 +0100
++++ klog-2.3.1/tests/tst_mainwindow/tst_mainwindow.pro	2023-08-16 11:41:01.939968700 +0100
+@@ -195,7 +195,7 @@
+ unix:!mac {
+     message(unix:!mac)
+     CONFIG  += c++11
+-    LIBS += -lhamlib
++    LIBS += -L"/usr/lib64/hamlib/" -lhamlib
+ }
+ 
+ macx: {
